@@ -1,5 +1,5 @@
 // import data from data.js
-const = tableData=data;
+const tableData=data;
 
 / reference the HTML table data using D3
 var tbody = d3.select("tbody");
@@ -24,3 +24,24 @@ function buildTable(data){
         });
     });
 }
+
+function handleClick(){
+    // get datedime value from the filter
+    let date = d3.select("#datatime").property("value");
+    let filteredData = tableData;
+
+    // check if date entered, filter data to that date if so
+    if (date) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+    };
+
+    // rebuild table using filtered data
+    buildTable(filteredData);
+};
+
+
+// monitor html for click on filter btn
+d3.selectAll("#filter-btn").on("click",handleClick);
+
+// load table when website loaded
+buildTable(tableData);
