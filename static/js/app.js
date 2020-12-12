@@ -1,7 +1,7 @@
 // import data from data.js
 const tableData=data;
 
-/ reference the HTML table data using D3
+// reference the HTML table data using D3
 var tbody = d3.select("tbody");
 
 function buildTable(data){
@@ -27,7 +27,7 @@ function buildTable(data){
 
 function handleClick(){
     // get datedime value from the filter
-    let date = d3.select("#datatime").property("value");
+    let date = d3.select("#datetime").property("value");
     let filteredData = tableData;
 
     // check if date entered, filter data to that date if so
