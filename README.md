@@ -15,17 +15,17 @@ Dana has engaged us to package this list in a website, allowing the user to filt
 ## User's Guide to the Website
 When this site is loaded, a full list of sightings is available at the bottom as you scroll down the screen. This makes for compelling reading, but is a bit overwhelming.
 
-[File as first loaded](/Resources/full_list.png)
+![File as first loaded](/Resources/full_list.png)
 
 As you scroll down, to the left of the listings (or above if viewing on a narrow screen) you will see a number of input boxes that can be used to filter the results by date, city, state, country, or shape. These have sample data filled in, but only as guidance - this sample data does NOT filter the data.
 
 As an example of filtering, you can put a state code in the State field.
 
-[filtered for massachusetts](/Resources/state_filter.png)
+![filtered for massachusetts](/Resources/state_filter.png)
 
 To filter by an additional field, enter the new filter in the appropriate box
 
-[filtered for state and shape](/Resources/state_shape_filter.png)
+![filtered for state and shape](/Resources/state_shape_filter.png)
 
 Finally, to reset / remove all filters, click on the "UFO Sightings" banner on the top of the page.
 
